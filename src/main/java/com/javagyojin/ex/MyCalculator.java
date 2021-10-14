@@ -27,7 +27,7 @@ public class MyCalculator {
 	}
 
 	public void setCalcu(Calculator calcu) {
-		this.calcu = calcu;
+		this.calculator = calcu;
 	}
 
 	public void setFirstNumber(int firstNumber) {
