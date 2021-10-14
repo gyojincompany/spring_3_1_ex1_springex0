@@ -2,7 +2,7 @@ package com.javagyojin.ex;
 
 public class MyCalculator {
 
-	Calculator calcu;
+	Calculator calculator;
 	private int firstNumber;
 	private int secondNumber;
 	
@@ -11,19 +11,19 @@ public class MyCalculator {
 	}
 
 	public void addition() {
-		calcu.add(firstNumber, secondNumber);
+		calculator.add(firstNumber, secondNumber);
 	}
 	
 	public void subtraction() {
-		calcu.sub(firstNumber, secondNumber);
+		calculator.sub(firstNumber, secondNumber);
 	}
 	
 	public void multiplication() {
-		calcu.multi(firstNumber, secondNumber);
+		calculator.multi(firstNumber, secondNumber);
 	}
 	
 	public void division() {
-		calcu.div(firstNumber, secondNumber);
+		calculator.div(firstNumber, secondNumber);
 	}
 
 	public void setCalcu(Calculator calcu) {
