@@ -26,17 +26,31 @@ public class MyCalculator {
 		calculator.div(firstNumber, secondNumber);
 	}
 
-	public void setCalcu(Calculator calcu) {
-		this.calculator = calcu;
+	public Calculator getCalculator() {
+		return calculator;
+	}
+
+	public void setCalculator(Calculator calculator) {
+		this.calculator = calculator;
+	}
+
+	public int getFirstNumber() {
+		return firstNumber;
 	}
 
 	public void setFirstNumber(int firstNumber) {
 		this.firstNumber = firstNumber;
 	}
 
+	public int getSecondNumber() {
+		return secondNumber;
+	}
+
 	public void setSecondNumber(int secondNumber) {
 		this.secondNumber = secondNumber;
 	}
+
+	
 	
 	
 	
